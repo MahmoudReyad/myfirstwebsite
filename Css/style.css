@@ -1,0 +1,620 @@
+/* Start Main Rules */ 
+.container {
+		width: 1170px;
+		margin: auto;
+
+}
+.clearfix{
+	clear: both;
+}
+
+/* End Main Rules */ 
+
+/* Start Header */
+.header .slider{
+	background-image: url('../images/digital.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	height: 500px;
+}
+.header .slider .intro  {
+	text-align: center;
+	color: #fff;
+	padding-top:180px;
+}
+
+
+.header .slider .intro h2 {
+	margin: auto;
+	font-size: 50px;
+	width: 600px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.header .slider .intro button {
+	background: none;
+	font-size: 20px;
+	border: 2px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 15px;
+
+}
+
+.header .navbar{
+	background-color: #252F31;
+	color: #fff;
+	overflow: hidden;
+	text-transform: uppercase;
+
+}
+.header .navbar h2 {
+	float: left;
+}
+
+.header .navbar h2 span {
+	color: #2ecc71;
+}
+.header .navbar ul{
+	list-style: none;
+	padding-left: 0px;
+	overflow: hidden;
+	float: right;
+	
+}
+.header .navbar ul li {
+	float: left;
+	padding: 10px;
+	display: inline-block;
+}
+.header .navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+
+}
+.header .navbar ul li a:hover {
+	
+	color: #30B576;
+
+}
+
+.header .navbar ul li:first-child a:visited {
+	
+	color: #30B576;
+}
+/* End Header   */
+
+/* Start Features */
+.Features{
+	overflow: hidden;
+	padding: 30px 0;
+
+}
+.Features .feat {
+	float: left;
+	width: 33.3333%;
+
+}
+.Features .feat h2 {
+	text-transform: uppercase;
+	color: #444;
+}
+.Features .feat p {
+	line-height: 1.7;
+	color: #888;
+	
+}
+
+/* End Features   */ 
+/* Start Aboutme  */
+.aboutme {
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+.aboutme .image {
+	float: left;
+	width: 40%;
+}
+.aboutme .image img {
+
+	width: 100%;
+	height: 78.5%;
+}
+.aboutme .info {
+	float: left;
+	width: 60%;
+}
+.aboutme .info h2{
+	margin: 40px 0 20px 40px;
+	color: #555;
+}
+.aboutme .info > p {
+	margin: 0 0 10px 40px;
+}
+.aboutme .info  p {
+	line-height: 1.7;
+	color: #666;
+}
+.aboutme .info > p:last-of-type {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.aboutme .info .hobbies{
+	overflow: hidden;
+	margin:40px 0 0 40px;
+}
+.aboutme .info .hobbies h3{
+	margin: 0;
+	color: #555;
+}
+.aboutme .info .hobbies p{
+	margin-top: 10px;
+}
+.aboutme .info .hobbies .content {
+	width: 50%;
+	float: left;
+	min-height: 100px;
+	overflow: hidden;
+}
+.aboutme .info .hobbies .content .icon ,.aboutme .info .hobbies .content .text {
+	float: left;
+}
+.aboutme .info .hobbies .content .icon {
+	width: 12%;
+}
+
+.aboutme .info .hobbies .content .icon img {
+	max-width: 100%;
+}
+.aboutme .info .hobbies .content .text{
+	width: 88%;
+}
+
+/* End About me   */
+/* Start My skills */
+.myskills{
+	padding: 30px 0 ;
+	overflow: hidden;
+}
+.myskills .skills ,.myskills .progress {
+	float: left;
+	width: 50%;
+}
+.myskills .skills h2 {
+	color: #555;
+	margin-bottom: 20px;
+}
+.myskills .skills p{
+	color: #666;
+	line-height: 1.5;
+}
+
+.myskills .skills button{
+	background: none;
+	padding: 10px 18px;
+	color:#2dcc70;
+	border: 2px solid #2dcc70; 
+	margin-top: 15px;
+}
+
+.myskills .progress{
+
+	padding: 30px 0 30px 0;
+}
+.myskills .progress .tech{
+	padding-left: 50px;
+}
+.myskills .progress .tech .progcont{
+	width: 70%;
+	background-color: #888;
+	height: 25px;
+	overflow: hidden;
+}
+.myskills .progress .tech h3{
+	color: #555;
+}
+.myskills .progress .tech .progcont .prog{
+	background-color:#2dcc70;
+	text-align: right;
+	height: 100%;
+	padding: 3px 4px 0 0;
+	color: #fff;
+}
+
+
+
+.myskills .progress .tech .progcont .prog p {
+	margin: 0;
+}
+
+/*End My skills    */
+
+/* Start Resume */
+.resume {
+	background-color: #f2f2f2;
+	padding: 30px 0 70px 0;
+	text-align: center;
+}
+.resume h2{
+	color: #555;
+}
+.resume p{
+	line-height: 1.5;
+	color: #666;
+}
+.resume  button{
+	background: none;
+	padding: 10px 18px;
+	color:#2dcc70;
+	border: 2px solid #2dcc70; 
+	margin-top: 15px;
+}
+/*End Resume    */
+/* Start Education */
+.myeducation{
+	padding: 30px 0px 30px 0 ;
+	overflow: hidden;
+}
+.myeducation .main{
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+
+}
+
+.myeducation .main h2{
+	padding: 25px 0 20px 40px;
+	color: #444;
+}
+.myeducation .main p {
+margin:0 0 10px 40px;
+color:#666;
+line-height: 1.5;
+}
+.myeducation .main p:last-of-type {
+	margin-top: 25px;
+}
+ .myeducation .exp {
+	float: left;
+	width: 45%;
+}
+.myeducation .exp h3{
+	margin:80px 0 5px 0;
+}
+.myeducation .exp p {
+	color: #555;
+}
+.myeducation .exp > span{
+	display: block;
+	margin-bottom: 5px;
+	color: #555;	
+}
+.myeducation .exp .btn{
+	border: 2px solid #f0ffed;
+	background-color: #2dcc70;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+}
+.myeducation .exp hr{
+	margin:10px 0;
+	color: #999;
+	height: 1px;
+}
+
+
+
+
+/*End My Education    */
+/* Work Exprience */
+.workexp{
+	padding: 30px 0px 30px 0 ;
+	overflow: hidden;
+}
+.workexp .wexp{
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+
+}
+
+.workexp .wexp h2{
+	padding: 25px 0 20px 40px;
+	color: #444;
+}
+.workexp .wexp p {
+margin:0 0 10px 40px;
+color:#666;
+line-height: 1.5;
+}
+.workexp .wexp p:last-of-type {
+	margin-top: 25px;
+}
+ .workexp .expdetails {
+	float: left;
+	width: 45%;
+}
+.workexp .expdetails h3{
+	margin:80px 0 5px 0;
+}
+.workexp .expdetails p {
+	color: #555;
+	line-height: 1.5;
+}
+.workexp .expdetails > span{
+	display: block;
+	margin-bottom: 5px;
+	color: #555;	
+}
+.workexp .expdetails .btn{
+	border: 2px solid #f0ffed;
+	background-color: #2dcc70;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+}
+.workexp .expdetails hr{
+	margin:10px 0;
+	color: #999;
+	height: 1px;
+}
+
+
+
+/* End work Exprience   */
+/* Start Testinomials */
+ .testinomials {
+	background-color: #f2f2f2;
+	padding: 30px 0 70px 0 ;
+	text-align: center;
+}
+
+.testinomials p {
+	color: #666;
+}
+
+.testinomials ul {
+	text-align: center;
+	overflow: hidden;
+	padding-left: 0;
+
+}
+
+.testinomials ul li {
+	display: inline-block;
+	border: 2px solid #2dcc70;
+	width: 15px;
+	height: 15px;
+	border-radius:100%;
+	cursor:pointer;
+}
+.testinomials ul li:first-child{
+	background-color: #2dcc70;
+}
+.testinomials ul li:hover{
+	background-color: #2dcc70;
+
+}
+
+
+/* End Testinomials */
+
+/* Start Portofolio */
+
+.Portofolio {
+	padding: 50px 0 70px 0;
+	text-align: center;
+
+}
+.Portofolio .ourwork {
+	overflow: hidden;
+}
+.Portofolio .container h2{
+	color: #777;
+}
+.Portofolio .container  p{
+	line-height: 1.7;
+	color: #666;
+}
+.Portofolio .ourwork >div img {
+
+	width: 92%;
+	height: 330px;
+	margin: 10px;
+	padding: 3px;
+	background-color: #fff;
+	border: 2px solid #ccc;
+}
+.Portofolio .ourwork >div {
+	float: left;
+	width: 33.3333%;
+	margin-bottom: 10px;
+}
+
+/* End Portofolio   */
+/* Start Contact me */
+.contactme {
+	padding: 30px 0;
+	background-color: #252F31;
+	overflow: hidden;
+}
+.contactme h2 {
+ 	color: #fff;
+}
+.contactme p {
+ 	color: #6a6f71;
+}
+
+
+.contactme .contactdetails {
+	float: left;
+	width: 50%;
+	padding-right:5%;
+}
+
+.contactme .contactdetails p{
+	line-height: 1.5;
+}
+.contactme .contactdetails span{
+	color: #fff;
+}
+
+.contactme .contactform  
+{
+	float: left;
+	width:45%;
+	overflow: hidden;
+}
+
+.contactme .contactform form{
+
+	width: 95%;
+	margin-top: 25px;
+	overflow: hidden;
+
+}
+.contactme .contactform label{
+	display:block;
+	color: #fff;
+}
+
+.contactme .contactform input{
+
+	margin: 10px 0 25px 0;
+	background-color: #444;
+	border: none;
+	width: 100%;
+	
+}
+
+.contactme .contactform input[name="name"] , .contactme .contactform input[name="email"]{
+
+	height: 35px;
+}
+.contactme .contactform input[name="message"]
+{
+	height: 150px;
+}
+.contactme .contactform button{
+	color: #fff;
+	padding: 10px 25px;
+	background-color: #444;
+	border: none;
+	margin-bottom: 30px;
+}
+
+/* End Contact me */
+
+/* Start Footer */ 
+.footer {
+	padding: 30px 0;
+	background-color:#191E22;
+	text-align:center; 
+	color: #6a6f71;
+	overflow: hidden;
+}
+.footer ul {
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+	margin: auto;
+}
+.footer ul li {
+	display: inline-block;
+	margin-right: 5px;
+	cursor: pointer;
+
+} 
+ .footer ul li img {
+ 	height: 25px;
+ 	width: 30px;
+ }
+
+
+
+
+
+/* End Footer   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
